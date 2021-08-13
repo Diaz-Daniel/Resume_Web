@@ -1,0 +1,151 @@
+/*root*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+h1,h2,p {
+    margin: 0;
+}
+
+/* Header styles */
+
+header{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1{
+    padding: 5px;
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.7rem;
+}
+
+nav a:hover{
+    color: brown;
+}
+
+/* main content styling */
+
+main{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.heroBanner{
+    background-image: url("https://sliftrock.com/en/wp-content/uploads/2017/05/cover_WEB-600x600.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 25vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    padding: 2% 6%;
+}
+
+.heroBanner div{
+    flex: 0 0 90%;
+}
+
+.heroBanner h2{
+    background-color: cornsilk;
+    margin: 0;
+    padding: 5px 10px;
+    line-height: 1.2;
+    font-size: 2rem;
+    display: inline;
+}
+
+.content{
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 
+.header{
+    justify-content: left;
+}
+
+.nav{
+    justify-content: right;
+}
+
+/* container content*/
+/* .flexbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: space-between;
+}
+
+.flexbox-item{
+    border: 3px solid black;
+    background-color: grey;
+}
+ */
+
+
+/*Container*/
+
+/* .flexbox-item-p1{
+    width: 100%;
+    margin: 20px;
+    min-height:400px;
+    justify-content: space-between;
+}
+
+.flexbox-item-p2{
+    width: 400px;
+    margin: 20px;
+    flex-grow: 2;
+    min-height: 200px;
+
+}
+
+.flexbox-item-p3{
+    width: 400px;
+    margin: 20px;
+    flex-grow: 2;
+    min-height: 200px ;
+}
+
+.flexbox-item-p4{
+    width: 400px;
+    margin: 20px;
+    flex-grow: 2;
+    min-height: 200px;
+}
+
+.flexbox-item-p5{
+    width: 400px;
+    margin: 20px;
+    flex-grow: 2;
+    min-height: 200px;
+}  */
+
+/* Footer*/
