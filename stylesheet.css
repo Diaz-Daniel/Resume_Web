@@ -53,6 +53,13 @@ main{
     margin-bottom: 35px;
 }
 
+.content{
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Hero Banner*/
 .heroBanner{
     background-image: url("https://sliftrock.com/en/wp-content/uploads/2017/05/cover_WEB-600x600.jpg");
     background-size: cover;
@@ -78,74 +85,58 @@ main{
     display: inline;
 }
 
-.content{
-    max-width: 88%;
-    margin-left: auto;
-    margin-right: auto;
+/*About Me */
+
+.personal-section{
+
 }
 
 
-/* 
-.header{
-    justify-content: left;
+#about{
+    
 }
 
-.nav{
-    justify-content: right;
-}
 
-/* container content*/
-/* .flexbox-container{
+/* Flexbox container*/
+
+
+ .flexbox-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:space-evenly;
-    align-content: space-between;
+    padding: 5px;
+    margin:auto;
+    flex-grow: 4;
+    width: 100%;
+    
 }
 
 .flexbox-item{
-    border: 3px solid black;
-    background-color: grey;
+    background-color: gray;
+    padding: 5px;
+    width:200px;
+    height: 150px;
+    margin-top: 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: left;
+   
 }
- */
+ 
 
 
 /*Container*/
 
-/* .flexbox-item-p1{
-    width: 100%;
+ .projectOne{
+    width: 400px;
     margin: 20px;
     min-height:400px;
     justify-content: space-between;
+    flex-grow: 8;
 }
 
-.flexbox-item-p2{
-    width: 400px;
-    margin: 20px;
-    flex-grow: 2;
-    min-height: 200px;
-
+.ProjectTwo{
+    
 }
-
-.flexbox-item-p3{
-    width: 400px;
-    margin: 20px;
-    flex-grow: 2;
-    min-height: 200px ;
-}
-
-.flexbox-item-p4{
-    width: 400px;
-    margin: 20px;
-    flex-grow: 2;
-    min-height: 200px;
-}
-
-.flexbox-item-p5{
-    width: 400px;
-    margin: 20px;
-    flex-grow: 2;
-    min-height: 200px;
-}  */
-
 /* Footer*/
