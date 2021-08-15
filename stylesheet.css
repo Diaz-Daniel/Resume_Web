@@ -87,6 +87,11 @@ main{
 
 /*About Me */
 
+img.resize{
+    width: 150px;
+    height:auto;
+}
+
 .personal-section{
 
 }
