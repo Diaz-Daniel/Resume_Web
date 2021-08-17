@@ -92,9 +92,21 @@ main {
 img.resize {
   width: 150px;
   height: auto;
+  margin: 5px;
 }
 
 .personal-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.personal-section h2 {
+  margin: 3px;
+}
+
+.personal-section div {
+  margin-left: 10px;
 }
 
 #about {
@@ -104,9 +116,10 @@ img.resize {
 
 .flexbox-container {
   display: flex;
-  border: solid red;
+  border: solid black;
   flex-wrap: wrap;
   flex-direction: row;
+  margin: 15px;
 }
 
 .flexbox-item {
@@ -119,40 +132,45 @@ img.resize {
 }
 
 .projectOne {
+  background-image: url("https://img.freepik.com/free-vector/subtle-halftone-dots-vector-texture-overlay_1095-518.jpg?size=626&ext=jpg&ga=GA1.2.2004736129.1629072000");
   flex-basis: 100%;
-  border: dashed black;
+  border: solid black;
   padding: 10px 10px 10px 10px;
+}
+
+#codecolor {
+  color: rgb(54, 51, 51);
 }
 
 .projectClass {
   display: flex;
   flex-wrap: wrap;
-  border: solid yellow;
+  border: solid black;
   flex-grow: 1;
 }
 
 .projectTwo {
   flex-basis: 50%;
   padding: 10px 10px 10px 10px;
-  border: dashed black;
+  border: solid black;
 }
 
 .projectThree {
   flex-basis: 50%;
   padding: 10px 10px 10px 10px;
-  border: dashed black;
+  border: solid black;
 }
 
 .projectFour {
   flex-basis: 50%;
   padding: 10px 10px 10px 10px;
-  border: dashed black;
+  border: solid black;
 }
 
 .projectFive {
   flex-basis: 50%;
   padding: 10px 10px 10px 10px;
-  border: dashed black;
+  border: solid black;
 }
 /* Footer*/
 
