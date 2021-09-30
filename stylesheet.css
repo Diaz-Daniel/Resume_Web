@@ -15,6 +15,10 @@ p {
   margin: 0;
 }
 
+a:link {
+  color: inherit;
+}
+
 /* Header styles */
 
 header {
@@ -101,15 +105,12 @@ img.resize {
   justify-content: space-between;
 }
 
-.personal-section h2 {
-  margin: 3px;
-}
-
 .personal-section div {
   margin-left: 10px;
 }
 
-#about {
+#about p {
+  font-size: large;
 }
 
 /* Flexbox container*/
@@ -138,8 +139,8 @@ img.resize {
   padding: 10px 10px 10px 10px;
 }
 
-#codecolor {
-  color: rgb(54, 51, 51);
+#codeColor {
+  color: black;
 }
 
 .projectClass {

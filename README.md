@@ -8,6 +8,11 @@ Representation on the internet matters. How you choose to represent your work ca
 
 This project is an introduction to applying the core skills I have learned and will continue to acquire throughout UW Coding Bootcamp. It is a space to practice new techniques and deploy the projects I will be completing during the course.
 
+## Technologies Used
+
+- Html
+- CSS
+
 ## Project Requirements
 
 - Have a web layout with my name and recent photo, and links to work and contact information.
