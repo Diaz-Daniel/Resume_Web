@@ -14,9 +14,8 @@ h2,
 p {
   margin: 0;
 }
-
-a:link {
-  color: inherit;
+a {
+  text-decoration: none;
 }
 
 /* Header styles */
@@ -125,11 +124,19 @@ img.resize {
 
 .flexbox-item {
   background-color: gray;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   color: white;
   font-weight: bold;
   font-size: 3em;
   text-align: left;
+  /* margin-right: 0; */
+  min-width: 300px;
+  min-height: 300px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  margin: 0.5em;
 }
 
 .projectOne {
@@ -137,6 +144,7 @@ img.resize {
   flex-basis: 100%;
   border: solid black;
   padding: 10px 10px 10px 10px;
+  min-height: 400px;
 }
 
 #codeColor {
@@ -151,25 +159,21 @@ img.resize {
 }
 
 .projectTwo {
-  flex-basis: 50%;
   padding: 10px 10px 10px 10px;
   border: solid black;
 }
 
 .projectThree {
-  flex-basis: 50%;
   padding: 10px 10px 10px 10px;
   border: solid black;
 }
 
 .projectFour {
-  flex-basis: 50%;
   padding: 10px 10px 10px 10px;
   border: solid black;
 }
 
 .projectFive {
-  flex-basis: 50%;
   padding: 10px 10px 10px 10px;
   border: solid black;
 }
